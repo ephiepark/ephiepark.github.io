@@ -1,4 +1,5 @@
 event_base is a centralized place to register events to monitor and folly::EventBase is a wrapper around event_base. 
+One event_base creates one thread to check on the event. Callback gets executed in the same thread so it better be quick in order not to block other events from fires in time
 
 EventHandler does the registering an event to watch and what callback function to call when the event is ready. 
 

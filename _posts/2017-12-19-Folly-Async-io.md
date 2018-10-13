@@ -8,3 +8,5 @@ event_base_set() sets the event to right event_base object. If this is not calle
 event_add() actually registers the event to the event_base to take effect.
 
 http://blog.gaurav.im/2014/12/15/a-gentle-intro-to-libevent/
+
+In action in folly: https://github.com/facebook/folly/blob/master/folly/io/async/EventHandler.cpp#L26

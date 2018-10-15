@@ -1,3 +1,21 @@
+# Add following to ~/.bashrc to show current path on prompt
+echo "export PS1='$(whoami):$(pwd)] '" >> ~/.bashrc
+source ~/.bashrc
+
+# Addin centos repo to redhat
+# https://unix.stackexchange.com/questions/433046/how-do-i-enable-centos-repositories-on-rhel-red-hat
+# Add following content to /etc/yum.repos.d/centos1.repo
+"""
+[centos]
+name=CentOS-7
+baseurl=http://ftp.heanet.ie/pub/centos/7/os/x86_64/
+enabled=1
+gpgcheck=1
+gpgkey=http://ftp.heanet.ie/pub/centos/7/os/x86_64/RPM-GPG-KEY-CentOS-7
+"""
+# And run the following
+sudo yum repolist
+
 # Setting up a box for redhat or centos
 yum install vim 
 yum install tmux
@@ -36,3 +54,9 @@ sudo yum --enablerepo=epel install mosh
 
 # Now you can connect with command like
 # mosh -ssh "ssh -i side_projects.pem" ec2-user@ec2-13-57-28-121.us-west-1.compute.amazonaws.com
+
+# This seems useful, even though I am exactly sure what it does :) (From https://computervisiononline.com/blog/install-opencv-31-and-python-27-centos-7)
+sudo yum groupinstall 'Development Tools'
+
+## opencv set up 
+# https://computervisiononline.com/blog/install-opencv-31-and-python-27-centos-7

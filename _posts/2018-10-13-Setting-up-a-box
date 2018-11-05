@@ -60,3 +60,6 @@ sudo yum groupinstall 'Development Tools'
 
 ## opencv set up 
 # https://computervisiononline.com/blog/install-opencv-31-and-python-27-centos-7
+
+## nuclide set up
+npm install -g nuclide

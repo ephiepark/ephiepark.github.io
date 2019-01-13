@@ -28,7 +28,7 @@ Let’s see some code example with Libevent
 
 * The following code will read input from stdin (fd 0) and print the input to stdout. 
 
-```
+```cpp
 #include <event.h>
 #include <unistd.h>
 #include <iostream>

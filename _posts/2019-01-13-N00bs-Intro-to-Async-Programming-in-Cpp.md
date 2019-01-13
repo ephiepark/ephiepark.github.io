@@ -51,6 +51,7 @@ int main(int argc, char* argv[]) {
   return 0;
 }
 ```
+
 Let’s go over the code
 
 1.  This event callback simply reads from the fd and prints to stdout. Event callback signature takes 
@@ -71,6 +72,7 @@ This all happens in one thread `top -H -p <PID>` would look like this.
 But this is boring. Same thing can be done with synchronous read! Let’s take a look at a bit more interesting example. 
 
 * This example makes a server that accepts new connections and prints string that clients send to stdout, and it does that all in one thread! Let's call this a PrintServer.
+
 ```
 #include <event.h>
 #include <unistd.h>
@@ -144,6 +146,7 @@ This all happens in one thread as well! top -H -p PID would look like this.
 ![_config.yml]({{ site.baseurl }}/images/N00bs-Intro-to-Async-Programming-in-Cpp/N00bs-Intro-to-Async-Programming-in-Cpp-2.png)
 
 If we change callback (1) to the following
+
 ```
 void callback(int fd, short event, void* arg) { // (1)
   int buf_size = 100;
@@ -154,6 +157,7 @@ void callback(int fd, short event, void* arg) { // (1)
   for(;;) {} // newly added line
 }
 ```
+
 This server won’t be able to respond to anything after getting the first input from a client. This is because everything works in a single thread!
 
 ##### Future (folly::Future)
@@ -252,6 +256,7 @@ int main(int argc, char* argv[]) {
   return 0;
 }
 ```
+
 Let’s go over the code
 
 1. EventHandler is a wrapper around event. I can create my handler by subclassing EventHandler. It gets fd as a parameter to its constructor, handlerReady is the callback. handlerReady doesn’t need explicit argument parameter since it has access to all of member variables in the handler object. InputEventHandler handles new input from client. 
@@ -337,6 +342,7 @@ int main(int argc, char* argv[]) {
   return 0;
 }
 ```
+
 Let’s go over the code
 
 1. This is the method that will return a future (`folly::SemiFuture`) that a client can call. 

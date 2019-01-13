@@ -4,7 +4,10 @@ title: Setting up a box
 ---
 Add following to ~/.bashrc to show current path on prompt
 ```
-echo "export PS1='$(whoami):$(pwd)] '" >> ~/.bashrc
+export PS1='$(whoami):$(pwd)] '
+```
+and run the following to make it effective.
+```
 source ~/.bashrc
 ```
 

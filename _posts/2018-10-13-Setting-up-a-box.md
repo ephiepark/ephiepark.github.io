@@ -62,14 +62,22 @@ rpm -ivh epel-release-latest-7.noarch.rpm
 ```
 
 2. install mosh
-```sudo yum --enablerepo=epel install mosh```
+```
+sudo yum --enablerepo=epel install mosh
+```
 Now you can connect with command like
-```mosh -ssh "ssh -i side_projects.pem" ec2-user@ec2-13-57-28-121.us-west-1.compute.amazonaws.com```
+```
+mosh -ssh "ssh -i side_projects.pem" ec2-user@ec2-13-57-28-121.us-west-1.compute.amazonaws.com
+```
 
 This seems useful, even though I am exactly sure what it does :) [guide](https://computervisiononline.com/blog/install-opencv-31-and-python-27-centos-7)
-```sudo yum groupinstall 'Development Tools'```
+```
+sudo yum groupinstall 'Development Tools'
+```
 
 Setting up opencv [guide](https://computervisiononline.com/blog/install-opencv-31-and-python-27-centos-7)
 
 Setting up nuclide
-```npm install -g nuclide```
+```
+npm install -g nuclide
+```

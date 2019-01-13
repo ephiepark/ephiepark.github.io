@@ -11,8 +11,8 @@ and run the following to make it effective.
 source ~/.bashrc
 ```
 
-In case of Redhat, add centos repo to redhat. 
-Add following content to /etc/yum.repos.d/centos1.repo [guide](https://unix.stackexchange.com/questions/433046/how-do-i-enable-centos-repositories-on-rhel-red-hat)
+In case of Redhat, add centos repo
+Add following content to `/etc/yum.repos.d/centos1.repo` [guide](https://unix.stackexchange.com/questions/433046/how-do-i-enable-centos-repositories-on-rhel-red-hat)
 ```
 [centos]
 name=CentOS-7
@@ -31,7 +31,7 @@ yum install git
 yum install tmux
 ```
 
-add .tmux.conf file with the following content to enable mouse scroll and mouse click for pane change.
+add `~/.tmux.conf` file with the following content to enable mouse scroll and mouse click for pane change.
 ```
 # Make mouse useful in copy mode
 setw -g mode-mouse on
@@ -62,14 +62,14 @@ rpm -ivh epel-release-latest-7.noarch.rpm
 ```
 
 2. install mosh
-`sudo yum --enablerepo=epel install mosh`
+```sudo yum --enablerepo=epel install mosh```
 Now you can connect with command like
-`mosh -ssh "ssh -i side_projects.pem" ec2-user@ec2-13-57-28-121.us-west-1.compute.amazonaws.com`
+```mosh -ssh "ssh -i side_projects.pem" ec2-user@ec2-13-57-28-121.us-west-1.compute.amazonaws.com```
 
 This seems useful, even though I am exactly sure what it does :) [guide](https://computervisiononline.com/blog/install-opencv-31-and-python-27-centos-7)
-`sudo yum groupinstall 'Development Tools'`
+```sudo yum groupinstall 'Development Tools'```
 
 Setting up opencv [guide](https://computervisiononline.com/blog/install-opencv-31-and-python-27-centos-7)
 
 Setting up nuclide
-`npm install -g nuclide`
+```npm install -g nuclide```

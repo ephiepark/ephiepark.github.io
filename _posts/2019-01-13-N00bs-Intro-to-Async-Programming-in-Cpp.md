@@ -12,7 +12,9 @@ Ever since I started working as an engineer, I heard about terms like eventbase,
 ##### What is Async programming?
 
 Async I/O lets a thread work on other cpu workload while waiting on I/O instead of blocking on I/O. Let’s say we are building a web server. In the simplest form of multi-threading, where the server creates a new thread to handle each web request, if the request handling involves a lot of I/O (synchronous), many of the threads will be blocked on I/O. As more requests come, the number of threads will keep increasing. 
+
 However, having many threads is not ideal. First, not all threads can get executed in parallel. The number of cpu cores determines the true parallelism. If there are more threads than the number of cpu cores, kernel context-switches them in and out to simulate parallel execution. Second, each additional thread comes with memory overhead. Third, increased number of threads will lead to increased number of context-switches. Context-switch itself is not a cheap operation and it also comes with side effects of higher cache misses. 
+
 Async programming tries to get the most out each thread by offloading I/O to special purpose pool of threads called I/O thread (Threads that are not I/O thread are called CPU thread). By doing this, it reduces the number of threads and benefits from less memory overhead, context-switch, etc. In this post, I will try to explain the building blocks of cpp async programming and how they interact with each other to achieve async programming. 
 
 

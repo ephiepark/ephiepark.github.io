@@ -141,7 +141,7 @@ Let’s go over the code
 3. Creating a new server socket and listening to it. 
 4. Registers acceptCallback to server socket and passes eventbase as the argument to the callback function to be used inside (2). 
 
-This all happens in one thread as well! top -H -p PID would look like this. 
+This all happens in one thread as well! `top -H -p <PID>` would look like this. 
 
 ![_config.yml]({{ site.baseurl }}/images/N00bs-Intro-to-Async-Programming-in-Cpp/N00bs-Intro-to-Async-Programming-in-Cpp-2.png)
 

@@ -352,5 +352,6 @@ While learning about these, I found the following resources to be extremely help
 [Futures for C++11 at Facebook](https://code.fb.com/developer-tools/futures-for-c-11-at-facebook/)
 [Libevent man page](http://man7.org/linux/man-pages/man3/event.3.html)
 [Libevent reference](http://www.wangafu.net/~nickm/libevent-2.0/doxygen/html/event_8h.html#aed2307f3d9b38e07cc10c2607322d758)
-[Folly Executors.md](https://github.com/facebook/folly/blob/master/folly/docs/Executors.md)Folly/io/async (https://github.com/facebook/folly/tree/master/folly/io/async)
+[Folly Executors.md](https://github.com/facebook/folly/blob/master/folly/docs/Executors.md)
+[Folly/io/async](https://github.com/facebook/folly/tree/master/folly/io/async)
 

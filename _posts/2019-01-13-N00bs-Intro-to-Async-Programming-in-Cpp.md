@@ -73,7 +73,7 @@ But this is boring. Same thing can be done with synchronous read! Let’s take a
 
 * This example makes a server that accepts new connections and prints string that clients send to stdout, and it does that all in one thread! Let's call this a PrintServer.
 
-```
+```cpp
 #include <event.h>
 #include <unistd.h>
 #include <iostream>
@@ -147,7 +147,7 @@ This all happens in one thread as well! top -H -p PID would look like this.
 
 If we change callback (1) to the following
 
-```
+```cpp
 void callback(int fd, short event, void* arg) { // (1)
   int buf_size = 100;
   char buf[buf_size];
@@ -177,7 +177,7 @@ Let's put things together to make a method that returns a future to a string of 
 
 * This is a PrintServer implemented with folly.
 
-```
+```cpp
 #include <unistd.h>
 #include <iostream>
 
@@ -268,7 +268,7 @@ Let’s go over the code
 
 Let’s put these together to make an async reader that returns a `folly::Future<std::string>` whenever there is an input to the fd. In the following example, fd will be 0, stdin. 
 
-```
+```cpp
 #include <unistd.h>
 #include <iostream>
 

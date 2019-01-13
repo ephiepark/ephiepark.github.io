@@ -1,7 +1,8 @@
 ---
 layout: post
-title: setting up a box
+title: Setting up a box
 ---
+```
 # Add following to ~/.bashrc to show current path on prompt
 echo "export PS1='$(whoami):$(pwd)] '" >> ~/.bashrc
 source ~/.bashrc
@@ -67,3 +68,4 @@ sudo yum groupinstall 'Development Tools'
 
 ## nuclide set up
 npm install -g nuclide
+```

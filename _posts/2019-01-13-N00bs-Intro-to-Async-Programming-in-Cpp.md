@@ -27,6 +27,7 @@ One I/O thread would have one eventbase associated with it, and just repeat the 
 Let’s see some code example with Libevent
 
 * The following code will read input from stdin (fd 0) and print the input to stdout. 
+
 ```
 #include <event.h>
 #include <unistd.h>

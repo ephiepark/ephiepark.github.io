@@ -21,6 +21,7 @@ Async programming tries to get the most out each thread by offloading I/O to spe
 ##### libevent
 
 In order to reduce the number of total threads, the number I/O threads have to be less than the number of I/Os. This means that a single I/O thread has to handle more than one I/Os. This is where Libevent comes in. Libevent is a construct that enables one I/O thread to handle multiple I/Os at the same time. Each I/O has a file descriptor associated with it. Using Libevent, we can make an event for each file descriptor. An event consists of three things: 1) a file descriptor, 2) interested event for that file descriptor (read, write, or establish a connection), and 3) a callback function. Multiple events can be registered to an eventbase. Once an eventbase goes into a loop, it will block until a timeout or one of the registered events to happen, in which case it will call the callback function for the event. 
+
 One I/O thread would have one eventbase associated with it, and just repeat the followings. 1. Waits for an event to happen. 2. Calls the callback function for the event (If multiple events are ready, execute callbacks for all of them) 3. Goes back to #1. The thing to look out for here is that the execution of callback function happens within the same thread that the eventbase is running its event loop. What this means is that, the callback function should finish as quickly as possible in order not to slow down subsequent event handling. 
 
 Let’s see some code example with Libevent

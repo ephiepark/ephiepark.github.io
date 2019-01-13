@@ -64,7 +64,8 @@ Let’s go over the code
 
 
 This all happens in one thread `top -H -p <PID>` would look like this. 
-[Image: Screen Shot 2018-12-06 at 2.24.18 PM.png]
+![_config.yml]({{ site.baseurl }}/images/N00bs-Intro-to-Async-Programming-in-Cpp/N00bs-Intro-to-Async-Programming-in-Cpp-1.png)
+
 But this is boring. Same thing can be done with synchronous read! Let’s take a look at a bit more interesting example. 
 
 * This example makes a server that accepts new connections and prints string that clients send to stdout, and it does that all in one thread! Let's call this a PrintServer.
@@ -137,7 +138,7 @@ Let’s go over the code
 4. Registers acceptCallback to server socket and passes eventbase as the argument to the callback function to be used inside (2). 
 
 This all happens in one thread as well! top -H -p PID would look like this. 
-[Image: image.png]
+![_config.yml]({{ site.baseurl }}/images/N00bs-Intro-to-Async-Programming-in-Cpp/N00bs-Intro-to-Async-Programming-in-Cpp-2.png)
 
 If we change callback (1) to the following
 ```

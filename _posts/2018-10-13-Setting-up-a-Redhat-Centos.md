@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Setting up a box
+title: Setting up a Redhat / Centos Server
 ---
 Add following to ~/.bashrc to show current path on prompt
 ```
@@ -24,7 +24,7 @@ gpgkey=http://ftp.heanet.ie/pub/centos/7/os/x86_64/RPM-GPG-KEY-CentOS-7
 And run the following command to check if it worked.
 `sudo yum repolist`
 
-In case of Redhat or Centos
+Run the following commands to set up vim, git, and tmux
 ```
 yum install vim 
 yum install git

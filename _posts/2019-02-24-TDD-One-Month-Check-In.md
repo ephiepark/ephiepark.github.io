@@ -1,28 +1,28 @@
 ---
 layout: post
-title: TDD One Month Check-in
+title: Test Driven Development One Month Check-in
 ---
 ### Intro
 I have been trying TDD for about a month now, and I wanted to take time to reflect on my experience on TDD to think about what worked what didn’t and to find a room for improvements to be better at TDD. 
 
-(My TDD practice knowledge comes from Test-Driven Development: A Practical Guide by David Astels. While I was writing this post, I read through Test Driven Development: what it is, and what it is not by Andrea Koutifaris to remind myself of TDD practice and compare with the way I am doing it).
+(My TDD practice knowledge comes from *Test-Driven Development: A Practical Guide by David Astels*. While I was writing this post, I read through *Test Driven Development: what it is, and what it is not by Andrea Koutifaris* to remind myself of TDD practice and compare with the way I am doing it).
 
 ### How it should be done
-Test Driven Development: what it is, and what it is not by Andrea Koutifaris does a great job in summarizing what TDD and how it needs to be done. (This is very much in line with what I read from Test-Driven Development: A Practical Guide by David Astels) TL;DR Programming in TDD model consists of three steps. 1. Write test that fails. 2. Write code to make the test pass 3. Refactor. 
+*Test Driven Development: what it is, and what it is not by Andrea Koutifaris* does a great job in summarizing what TDD and how it needs to be done. (This is very much in line with what I read from *Test-Driven Development: A Practical Guide by David Astels*) TL;DR Programming in TDD model consists of three steps. 1. Write test that fails. 2. Write code to make the test pass 3. Refactor. 
 
 1. Write test that fails. 
 This needs to happen before any code. In many cases, test will use a class or functions that doesn’t exist yet, which causes compile error. This is okay. One of the goals of this phase is to come up with an intuitive apis for user’s perspective for the classes and functions to be implemented. So, it actually makes more sense to write test first before thinking about all the implementation details of the apis. 
 
 > It is in this phase where you concentrate on writing a clean interface for future users. This is the phase where you design how your code will be used by clients. 
 >
-> -- <cite>Test Driven Development: what it is, and what it is not by Andrea Koutifaris</cite>
+> -- <cite>*Test Driven Development: what it is, and what it is not by Andrea Koutifaris*</cite>
 
 2. Write code to make the test pass.
 This phase should focus only on writing the code so that the test passes. One of the key things in this phase is to write as little code as possible to pass the test. 
 
 > In this phase, you need to act like a programmer who has one simple task: write a straightforward solution that makes the test pass (and makes the alarming red on the test report becomes a friendly green). In this phase, you are allowed to violate best practices and even duplicate code. Code duplication will be removed in the refactor phase.
 > 
-> -- <cite>Test Driven Development: what it is, and what it is not by Andrea Koutifaris</cite>
+> -- <cite>*Test Driven Development: what it is, and what it is not by Andrea Koutifaris*</cite>
 
 3. Refactor
 This is the time to refactor the code to be clean to remove duplicate code and to add abstraction layer. The beauty of TDD is that as long as all the tests pass, you know the refactor is safe. 
@@ -46,7 +46,7 @@ Based on these reflections, I think I need to improve on...
   - This goes against 
     - > Here comes another mistake: do not write a bunch of functions/classes that you think you may need. Concentrate on the feature you are implementing and on what is really needed. Writing something the feature doesn’t require is over-engineering. 
       >
-      > -- <cite>Test Driven Development: what it is, and what it is not by Andrea Koutifaris</cite>
+      > -- <cite>*Test Driven Development: what it is, and what it is not by Andrea Koutifaris*</cite>
 - I need to figure out how to test classes / functions that simply calls other functions under-the-hood. I should probably look for examples of this case written by other people following TDD. 
 
 Thanks for reading and please let me know if you have any feedback on my TDD approaches and understanding. 

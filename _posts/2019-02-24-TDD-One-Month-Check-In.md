@@ -5,7 +5,7 @@ title: Test Driven Development One Month Check-in
 ### Intro
 I have been trying TDD for about a month now, and I wanted to take time to reflect on my experience on TDD to think about what worked what didn’t and to find a room for improvements to be better at TDD. 
 
-(My TDD practice knowledge comes from *Test-Driven Development: A Practical Guide by David Astels*. While I was writing this post, I read through *Test Driven Development: what it is, and what it is not by Andrea Koutifaris* to remind myself of TDD practice and compare with the way I am doing it).
+(My TDD practice knowledge comes from *[Test-Driven Development: A Practical Guide by David Astels](https://www.amazon.com/Test-Driven-Development-Practical-Guide-Coad/dp/0131016490/ref=sr_1_1?ie=UTF8&s=books&qid=1217181313&sr=1-1)*. While I was writing this post, I read through *[Test Driven Development: what it is, and what it is not by Andrea Koutifaris](https://medium.freecodecamp.org/test-driven-development-what-it-is-and-what-it-is-not-41fa6bca02a2)* to remind myself of TDD practice and compare with the way I am doing it).
 
 ### How it should be done
 *Test Driven Development: what it is, and what it is not by Andrea Koutifaris* does a great job in summarizing what TDD and how it needs to be done. (This is very much in line with what I read from *Test-Driven Development: A Practical Guide by David Astels*) TL;DR Programming in TDD model consists of three steps. 1. Write test that fails. 2. Write code to make the test pass 3. Refactor. 

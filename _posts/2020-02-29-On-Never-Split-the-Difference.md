@@ -15,7 +15,7 @@ My understanding of this book’s main theme is to leverage the counterpart as m
 **I have categorized the technique into the followings:**
 - **Understand the counterpart’s true intention**
   - The key in understanding the counterpart’s true intention is to give him the sense of comfort and keep him talking. 
-  - **Asking No Question**
+  - **Asking "No" Question**
     - “Extracting that information means getting the other party to feel safe and in control. And while it may sound contradictory, the way to get there is by getting the other party to disagree, to draw their own boundaries, to define their desires as a function of what they do not want.”
     - “Break the habit of attempting to get people to say “yes.” Being pushed for “yes” makes people defensive. Our love of hearing “yes” makes us blind to the defensiveness we ourselves feel when someone is pushing us to say it.“
   - **Effective Pauses**

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Setting up a Redhat / Centos Server
+title: On Nietzsche
 ---
 
 >  Again, the devil took him to a very high mountain and showed him all the kingdoms of the world and their splendor. “All this I will give you,” he said, “if you will bow down and worship me.” Jesus said to him, “Away from me, Satan! For it is written: ‘Worship the Lord your God, and serve him only.’”

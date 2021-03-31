@@ -25,13 +25,13 @@ I think I am able to be in the okay zone thanks to people around me keeping me g
 How can I do that? I don’t know the answer to this question yet. But the followings are a few ideas that I am playing around with:
 
 
-My first step is to acknowledge that I have somewhat intense will to power that can easily tip out of balance. I need to be conscious of the environment that I put myself in so that I can always stay in balance. 
+- My first step is to acknowledge that I have somewhat intense will to power that can easily tip out of balance. I need to be conscious of the environment that I put myself in so that I can always stay in balance. 
 
-Instead of trying to act like I won’t have the will to power over night, I should think about how to put this tool into a good use. Maybe I should practice associating myself to something bigger than my physical self, and work for something that is beyond me. 
+- Instead of trying to act like I won’t have the will to power over night, I should think about how to put this tool into a good use. Maybe I should practice associating myself to something bigger than my physical self, and work for something that is beyond me. 
 
-I need to learn to define what greatness is. I am striving to achieve greatness defined by other people. As a social animal I don’t think I can completely escape from this, but I need to learn to strike a balance. 
+- I need to learn to define what greatness is. I am striving to achieve greatness defined by other people. As a social animal I don’t think I can completely escape from this, but I need to learn to strike a balance. 
 
-I need to think more about things that I should be grateful for. There are so many things that I need to be grateful for. Being super focused on a small thing shrinks my mind and makes me overlook grateful things and only see things that I lack. 
+- I need to think more about things that I should be grateful for. There are so many things that I need to be grateful for. Being super focused on a small thing shrinks my mind and makes me overlook grateful things and only see things that I lack. 
 
 
 Even long after the stroll to Twin Peaks, the story of Jesus lingered in my mind. How could he possibly say no to that? After thinking about it for a while, I came to a closure that it probably was his faith. Jesus had the faith that everything he needs will be given. Everything I need in life will be given to me. Why is this so hard to just have faith in that line? Let me just have some faith and chill the fuck down!

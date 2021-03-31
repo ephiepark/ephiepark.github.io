@@ -3,7 +3,7 @@ layout: post
 title: Setting up a Redhat / Centos Server
 ---
 
-> >  Again, the devil took him to a very high mountain and showed him all the kingdoms of the world and their splendor. “All this I will give you,” he said, “if you will bow down and worship me.” Jesus said to him, “Away from me, Satan! For it is written: ‘Worship the Lord your God, and serve him only.’”
+>  Again, the devil took him to a very high mountain and showed him all the kingdoms of the world and their splendor. “All this I will give you,” he said, “if you will bow down and worship me.” Jesus said to him, “Away from me, Satan! For it is written: ‘Worship the Lord your God, and serve him only.’”
  - Matthew 4:8-10
 
 I didn’t give a second thought to this passage when I encountered the story at a young age. It was yet another story from the bible where Jesus overcame the temptation of the devil.

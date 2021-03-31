@@ -7,7 +7,7 @@ I went downstairs for dinner. We were setting up the table and looking for a TV 
 
 There were the same iOS notifications. The phone looked for my face with an attempt to unlock itself. I was waiting patiently and I could feel my forehead swelling under the tense expectation. All that expectation was pressing down on me and making it hard for me to relax. And every time I felt a hint of fatigue inside my head, I strained every nerve in order to overcome the tiredness and the thick drunkenness it was spilling over me. With every change of animation on the screen, from movement of lock icon or expanding notifications, my jaws tightened. A few microseconds felt like a long time. 
 
-From a tip of expanding notification I could see the white ‘w’ surrounded by an ominous yellow circle. I was thinking of the resounding support from teammates. I wanted to hear good news to alleviate work from me, to escape the tiredness and to find comfort and rest again at last. But as I read the Work Chat notification closer, I saw that Hao’s message had come back. 
+From a tip of expanding notification I could see the white ‘w’ surrounded by an ominous yellow circle. I was thinking of the resounding support from teammates. I wanted to hear good news to alleviate work from me, to escape the tiredness and to find comfort and rest again at last. But as I read the Work Chat notification closer, I saw that H’s message had come back. 
 
 He must have been alone. He must have been lying on his back, with his hands loosely holding on to his phone, his body partly covered by a blanket. I was a little surprised. As far as I was concerned, the whole thing was clear, and I’d come downstairs without even thinking about the possibility of this response. 
 
